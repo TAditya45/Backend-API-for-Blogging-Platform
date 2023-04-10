@@ -73,5 +73,7 @@ To retrieve the n-th level friends of a user, you can use the following API:
 
             GET /users/<user_id>/level/<level_no>/friends/
 
-            For example, to retrieve the 2nd level friends of user with ID 1, use the following URL: http://localhost:8000/users/1/level/2/friends/
+For example, to retrieve the 2nd level friends of user with ID 1, 
+            
+            use the following URL: http://localhost:8000/users/1/level/2/friends/
 
