@@ -45,3 +45,32 @@ Testing
 Unit tests for the API endpoints and friend finding functions are included in the tests directory. Run the tests using the following command:
 
 
+Clone the repository to your local machine:
+
+git clone https://github.com/taditya45/.git
+Install the required dependencies:
+
+            pip install -r requirements.txt
+
+Set up the database by running the following command:
+
+            python manage.py migrate
+
+Start the development server:
+           
+           python manage.py runserver
+
+You can access the APIs using the following URLs:
+
+            Users API: http://localhost:8000/users/
+
+            Blogs API: http://localhost:8000/blogs/
+
+            Comments API: http://localhost:8000/comments/
+
+            To retrieve the n-th level friends of a user, you can use the following API:
+
+                        GET /users/<user_id>/level/<level_no>/friends/
+
+                        For example, to retrieve the 2nd level friends of user with ID 1, use the following URL: http://localhost:8000/users/1/level/2/friends/
+
