@@ -10,40 +10,6 @@ Django REST framework
 PostgreSQL
 
 
-File Structure
-
-├── myproject
-│   ├── __init__.py
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-├── users
-│   ├── __init__.py
-│   ├── models.py
-│   ├── serializers.py
-│   ├── views.py
-│   └── urls.py
-├── blogs
-│   ├── __init__.py
-│   ├── models.py
-│   ├── serializers.py
-│   ├── views.py
-│   └── urls.py
-├── comments
-│   ├── __init__.py
-│   ├── models.py
-│   ├── serializers.py
-│   ├── views.py
-│   └── urls.py
-├── utils
-│   ├── __init__.py
-│   └── friend_utils.py
-├── tests
-│   ├── __init__.py
-│   ├── test_api.py
-│   └── test_friends.py
-├── manage.py
-└── README.md
 
 
 Functionality
