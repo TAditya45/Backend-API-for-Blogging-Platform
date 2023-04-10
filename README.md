@@ -5,13 +5,10 @@ This is a backend API for a blogging platform that allows users to create and ma
 
 Technologies Used
 
-Python
-
-Django
-
-Django REST framework
-
-PostgreSQL
+            Python
+            Django
+            Django REST framework
+            PostgreSQL              
 
 
 
