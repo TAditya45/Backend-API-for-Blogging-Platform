@@ -4,9 +4,13 @@ Backend API for Blogging Platform
 This is a backend API for a blogging platform that allows users to create and manage their blogs and comments.
 
 Technologies Used
+
 Python
+
 Django
+
 Django REST framework
+
 PostgreSQL
 
 
