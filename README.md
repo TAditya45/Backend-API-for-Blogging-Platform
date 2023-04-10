@@ -36,6 +36,7 @@ The API has the following endpoints:
                   GET /comments/{id}: Returns the details of a specific comment.
                   PUT /comments/{id}: Updates the details of a specific comment.
                   DELETE /comments/{id}: Deletes a specific comment.
+                  
       Friends
                   GET /users/{id}/level/{levelNo}: Returns a list of all friends at the specified level for the given user.
 
